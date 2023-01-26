@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 173.240.236.118
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1674703693255
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674703833816
+  login: 1674702083031
+money: '0'
+last-account-name: Nmans01
+lastlocation:
+  world: 217ba7c8-d200-4cbb-ad17-175ae7f9cfc0
+  world-name: flat
+  x: 42.9158609238506
+  y: -52.386871015480125
+  z: 18.360369225441342
+  yaw: -34.949554443359375
+  pitch: 32.9998893737793
+logoutlocation:
+  world: a82a5098-7c77-48f8-8739-51f6aa6396ed
+  world-name: campus
+  x: 2.32116367481668
+  y: -43.970172832554475
+  z: -2.373552807541062
+  yaw: -68.84996032714844
+  pitch: 52.650054931640625

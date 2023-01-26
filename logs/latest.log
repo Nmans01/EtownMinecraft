@@ -1,0 +1,281 @@
+[02:23:32] [ServerMain/INFO]: Building unoptimized datafixer
+[02:23:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:23:36] [ServerMain/INFO]: Loaded 7 recipes
+[02:23:37] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[02:23:37] [Server thread/INFO]: Loading properties
+[02:23:37] [Server thread/INFO]: This server is running Paper version git-Paper-379 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 567ff90)
+[02:23:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:23:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:23:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:23:38] [Server thread/INFO]: Default game type: SURVIVAL
+[02:23:38] [Server thread/INFO]: Generating keypair
+[02:23:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:23:38] [Server thread/INFO]: Using epoll channel type
+[02:23:38] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[02:23:38] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux aarch64) cipher from Velocity.
+[02:23:39] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.58
+[02:23:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.13+46576cc
+[02:23:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@61084134]
+[02:23:40] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.7
+[02:23:40] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.7
+[02:23:40] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[02:23:40] [Server thread/INFO]: [dynmap] Loading dynmap v3.5-beta-1-844
+[02:23:40] [Server thread/INFO]: [dynmap] version=git-Paper-379 (MC: 1.19.3)
+[02:23:40] [Server thread/INFO]: [dynmap] Mod Support API available
+[02:23:40] [Server thread/INFO]: [WESV] Loading WorldEditSelectionVisualizer v2.1.3
+[02:23:40] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0
+[02:23:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:23:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
+[02:23:40] [Server thread/INFO]:         __    
+[02:23:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
+[02:23:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:23:40] [Server thread/INFO]: 
+[02:23:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:23:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:23:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:23:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:23:41] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1545ms)
+[02:23:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
+[02:23:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:23:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:23:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
+[02:23:44] [Server thread/INFO]: Preparing level "world"
+[02:23:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:23:47] [Server thread/INFO]: Time elapsed: 174 ms
+[02:23:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:23:47] [Server thread/INFO]: Time elapsed: 122 ms
+[02:23:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:23:47] [Server thread/INFO]: Time elapsed: 61 ms
+[02:23:47] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[02:23:47] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[02:23:47] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:23:47] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:23:48] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[02:23:48] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:23:48] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:23:48] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:23:48] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[02:23:48] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[02:23:48] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[02:23:48] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.7
+[02:23:48] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
+[02:23:48] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:23:48] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[02:23:48] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[02:23:48] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[02:23:49] [Server thread/INFO]: Preparing start region for dimension minecraft:test
+[02:23:49] [Server thread/INFO]: Time elapsed: 92 ms
+[02:23:49] [Server thread/INFO]: Preparing start region for dimension minecraft:flat
+[02:23:49] [Server thread/INFO]: Time elapsed: 111 ms
+[02:23:49] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[02:23:49] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[02:23:49] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[02:23:49] [Server thread/INFO]: [dynmap] Enabling dynmap v3.5-beta-1-844
+[02:23:50] [Server thread/INFO]: [dynmap] Added 19 custom biome mappings
+[02:23:50] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.58 for access control
+[02:23:50] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[02:23:55] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[02:23:55] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[02:23:55] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[02:23:56] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[02:23:56] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[02:23:56] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[02:23:56] [Server thread/INFO]: [dynmap] version 3.5-beta-1-844 is enabled - core version 3.5-beta-1-844
+[02:23:56] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[02:23:56] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[02:23:56] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[02:23:56] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[02:23:56] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[02:23:56] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[02:23:56] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[02:23:56] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'test'.
+[02:23:56] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'flat'.
+[02:23:56] [Server thread/INFO]: [dynmap] Enabled
+[02:23:56] [Server thread/INFO]: [WESV] Enabling WorldEditSelectionVisualizer v2.1.3
+[02:23:56] [Server thread/INFO]: [WESV] Using WorldEdit 7 api
+[02:23:56] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0
+[02:23:56] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[02:23:57] [Server thread/INFO]: Running delayed init tasks
+[02:23:57] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0
+[02:23:57] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:23:57] [Server thread/INFO]: Done (19.872s)! For help, type "help"
+[02:23:57] [Server thread/INFO]: Timings Reset
+[02:23:57] [pool-22-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
+[02:54:53] [User Authenticator #0/INFO]: UUID of player Nmans01 is 6eb69c7e-03e2-4efb-a376-f8cce77bc660
+[02:54:53] [Server thread/INFO]: Nmans01 joined the game
+[02:54:53] [Server thread/INFO]: Nmans01[/173.240.236.118:62300] logged in with entity id 235 at ([test]472.30000001192093, 65.0, -1325.7197776072255)
+[02:55:44] [Server thread/INFO]: Nmans01 issued server command: /gmc
+[02:55:50] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[02:59:40] [Server thread/INFO]: Nmans01 lost connection: Disconnected
+[02:59:40] [Server thread/INFO]: Nmans01 left the game
+[03:01:15] [User Authenticator #1/INFO]: UUID of player meowwmmo is 0aafa015-0271-447f-9fb8-29f195eb9fba
+[03:01:15] [Server thread/INFO]: meowwmmo joined the game
+[03:01:15] [Server thread/INFO]: meowwmmo[/173.240.229.74:52923] logged in with entity id 569 at ([world]-3060.5, 74.0, -1209.5)
+[03:01:22] [User Authenticator #1/INFO]: UUID of player Nmans01 is 6eb69c7e-03e2-4efb-a376-f8cce77bc660
+[03:01:22] [Server thread/INFO]: Nmans01 joined the game
+[03:01:22] [Server thread/INFO]: Nmans01[/173.240.236.118:63488] logged in with entity id 772 at ([test]471.4646622470204, 74.86878999790744, -1300.003108528011)
+[03:01:28] [Server thread/INFO]: Nmans01 issued server command: /bc penic
+[03:01:32] [Server thread/INFO]: Nmans01 issued server command: /bc penis*
+[03:01:43] [Server thread/INFO]: Nmans01 issued server command: /tphere meowwmmo
+[03:01:45] [Async Chat Thread - #2/INFO]: <meowwmmo> w
+[03:01:58] [Async Chat Thread - #2/INFO]: <Nmans01> NOOOOOOOOOOOO
+[03:02:04] [Async Chat Thread - #1/INFO]: <meowwmmo> K1LL
+[03:02:15] [Server thread/INFO]: Nmans01 issued server command: /op meowwmmo
+[03:02:15] [Server thread/INFO]: [Nmans01: Made meowwmmo a server operator]
+[03:02:34] [Async Chat Thread - #2/INFO]: <Nmans01> if you wanna go creative mode you can type /gmc
+[03:02:36] [Server thread/INFO]: Nmans01 issued server command: /gmc
+[03:02:43] [Server thread/INFO]: meowwmmo issued server command: /gmc
+[03:02:46] [Async Chat Thread - #1/INFO]: <meowwmmo> oooooo
+[03:02:50] [Async Chat Thread - #2/INFO]: <meowwmmo> thank broiter
+[03:03:26] [Server thread/INFO]: Nmans01 issued server command: /mv lsit
+[03:03:30] [Server thread/INFO]: Nmans01 issued server command: /mv list
+[03:03:34] [Server thread/INFO]: Nmans01 issued server command: /mv tp flat
+[03:03:46] [Async Chat Thread - #2/INFO]: <meowwmmo> THEYRE IN THEREEE
+[03:03:53] [Async Chat Thread - #1/INFO]: <Nmans01> LMAO
+[03:03:57] [Async Chat Thread - #2/INFO]: <meowwmmo> THE BIRD IS SPINNINGGGG
+[03:04:06] [Async Chat Thread - #2/INFO]: <meowwmmo> WWHHHHAOOA
+[03:04:35] [Server thread/INFO]: Nmans01 issued server command: /mv create
+[03:04:43] [Server thread/INFO]: Nmans01 issued server command: /mv create campus normal -t flat
+[03:04:43] [Server thread/INFO]: Nmans01: Starting creation of world 'campus'...
+[03:04:43] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'campus' - Env: NORMAL - Type: FLAT
+[03:04:43] [Server thread/ERROR]: No key layers in MapLike[{}]
+[03:04:43] [Server thread/INFO]: Preparing start region for dimension minecraft:campus
+[03:04:43] [Server thread/INFO]: Time elapsed: 191 ms
+[03:04:43] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'campus'.
+[03:04:43] [Server thread/INFO]: Nmans01: Complete!
+[03:04:53] [Server thread/INFO]: Nmans01 issued server command: /mv tp campus
+[03:05:00] [Server thread/INFO]: Nmans01 issued server command: /mv modify set
+[03:05:06] [Server thread/INFO]: Nmans01 issued server command: /mv modify set mobs false
+[03:05:15] [Server thread/INFO]: Nmans01 issued server command: /mv modify set gamemode creative
+[03:05:31] [Server thread/INFO]: Nmans01 issued server command: /mv modify set spawning false
+[03:05:43] [Server thread/INFO]: Nmans01 issued server command: /mv modify set animals false
+[03:05:48] [Server thread/INFO]: Nmans01 issued server command: /mv modify set monsters false
+[03:05:53] [Server thread/INFO]: Nmans01 issued server command: /mv modify set spawning false
+[03:07:10] [Server thread/INFO]: Nmans01 issued server command: /mv spawn
+[03:07:10] [Server thread/WARN]: Nmans01 moved too quickly! -54.14751707967071,0.0,-594.7224395194963
+[03:08:23] [Server thread/INFO]: Nmans01 issued server command: /mv spawn
+[03:08:33] [Server thread/INFO]: Nmans01 issued server command: /mv setspawn
+[03:08:46] [Server thread/INFO]: Nmans01 issued server command: /mv setspawn
+[03:09:19] [Server thread/INFO]: Nmans01 issued server command: /mv list
+[03:09:24] [Server thread/INFO]: Nmans01 issued server command: /mv tp test
+[03:09:38] [Async Chat Thread - #3/INFO]: <Nmans01> ',;o
+[03:09:43] [Async Chat Thread - #4/INFO]: <meowwmmo> what
+[03:09:46] [Server thread/INFO]: Nmans01 issued server command: /gmc
+[03:09:50] [Async Chat Thread - #3/INFO]: <meowwmmo> long jawn
+[03:10:00] [Async Chat Thread - #4/INFO]: <Nmans01> that schlawng be schlawnging
+[03:10:04] [Async Chat Thread - #3/INFO]: <meowwmmo> GRGUKRHGKR
+[03:11:34] [Async Chat Thread - #5/INFO]: <Nmans01> if you want a completely safe space to build whatever and not have it broken later, i made a flat world
+[03:11:45] [Async Chat Thread - #6/INFO]: <meowwmmo> oooooo ok
+[03:11:47] [Async Chat Thread - #6/INFO]: <Nmans01> you can do '/mv tp flat' to get there
+[03:11:49] [Server thread/INFO]: Nmans01 issued server command: /mv tp flat
+[03:11:50] [Async Chat Thread - #5/INFO]: <meowwmmo> how do join
+[03:13:06] [Async Chat Thread - #7/INFO]: <meowwmmo> oh
+[03:13:17] [Server thread/INFO]: Nmans01 issued server command: /tp meowwmmo
+[03:13:21] [Server thread/INFO]: Nmans01 issued server command: /gmc
+[03:13:26] [Server thread/INFO]: Nmans01 issued server command: /back
+[03:13:34] [Server thread/INFO]: meowwmmo issued server command: /mv tp flat
+[03:13:40] [Async Chat Thread - #7/INFO]: <meowwmmo> WHATTT THEEEF UUUUUUUUUUUUUUUU
+[03:13:46] [Async Chat Thread - #7/INFO]: <Nmans01> ??
+[03:13:48] [Server thread/INFO]: Nmans01 issued server command: /back
+[03:13:48] [Async Chat Thread - #7/INFO]: <meowwmmo> NOOOOOOOOOOOOOOOOOOOOOOOOO
+[03:13:51] [Server thread/INFO]: Nmans01 issued server command: /gmc
+[03:14:02] [Server thread/INFO]: Nmans01 issued server command: /tp meowwmmo
+[03:14:43] [Server thread/INFO]: Nmans01 issued server command: /itemname Raw Bingus
+[03:14:49] [Server thread/INFO]: Nmans01 issued server command: /itemname &rRaw Bingus
+[03:14:55] [Server thread/INFO]: Nmans01 issued server command: /invsee meowwmmo
+[03:15:00] [Server thread/INFO]: Nmans01 issued server command: /invsee meowwmmo
+[03:15:28] [Server thread/INFO]: Nmans01 issued server command: /mv tp campus
+[03:15:31] [Server thread/INFO]: meowwmmo issued server command: /brush sphere grass_block
+[03:15:53] [Server thread/INFO]: meowwmmo issued server command: /brush sp
+[03:16:04] [Server thread/INFO]: meowwmmo issued server command: /brush sphere grass_block
+[03:16:14] [Async Chat Thread - #9/INFO]: <meowwmmo> i have no finneese
+[03:16:17] [Async Chat Thread - #10/INFO]: <meowwmmo> with tool
+[03:16:28] [Server thread/INFO]: Nmans01 issued server command: /invsee meowwmmo
+[03:16:32] [Async Chat Thread - #10/INFO]: <Nmans01> wym?
+[03:16:35] [Server thread/INFO]: Nmans01 issued server command: /tp meowwmmo
+[03:17:19] [Server thread/INFO]: meowwmmo issued server command: /time set day
+[03:18:40] [Async Chat Thread - #11/INFO]: <meowwmmo> oh i never learned creative brush tools
+[03:18:54] [Async Chat Thread - #12/INFO]: <meowwmmo> ytf do i have raw bingus wdf
+[03:19:00] [Async Chat Thread - #12/INFO]: <meowwmmo> what
+[03:20:12] [Server thread/INFO]: Nmans01 issued server command: /mv tp campus
+[03:20:55] [Server thread/INFO]: meowwmmo issued server command: /brush sphere grass_block
+[03:24:45] [Server thread/INFO]: meowwmmo issued server command: /brush smooth 10
+[03:24:52] [Server thread/INFO]: meowwmmo issued server command: /brush smooth 4
+[03:28:03] [Server thread/INFO]: Nmans01 issued server command: /gmsp
+[03:28:07] [Server thread/INFO]: Nmans01 issued server command: /tp meowwmmo
+[03:28:13] [Server thread/INFO]: Nmans01 issued server command: /back
+[03:28:13] [Server thread/INFO]: meowwmmo issued server command: /time set day
+[03:29:46] [Async Chat Thread - #13/INFO]: <Nmans01> im boutta bbbust on outta here
+[03:29:51] [Server thread/INFO]: Nmans01 issued server command: /data
+[03:29:52] [Async Chat Thread - #14/INFO]: <meowwmmo> ok
+[03:29:56] [Async Chat Thread - #13/INFO]: <meowwmmo> i might too tbh
+[03:30:11] [Async Chat Thread - #14/INFO]: <Nmans01> see ya gamer
+[03:30:15] [Async Chat Thread - #13/INFO]: <meowwmmo> SEE YA THX
+[03:30:24] [Async Chat Thread - #13/INFO]: <Nmans01> 8========Ddjfsnfvajfahnsfasdfaghn
+[03:30:28] [Async Chat Thread - #13/INFO]: <meowwmmo> wt
+[03:30:33] [Server thread/INFO]: Nmans01 lost connection: Disconnected
+[03:30:33] [Server thread/INFO]: Nmans01 left the game
+[03:39:11] [Server thread/INFO]: meowwmmo issued server command: /time set day
+[03:47:05] [Server thread/INFO]: meowwmmo issued server command: /time set night
+[03:52:29] [Server thread/INFO]: meowwmmo lost connection: Disconnected
+[03:52:29] [Server thread/INFO]: meowwmmo left the game
+[04:03:23] [Server thread/INFO]: Stopping the server
+[04:03:23] [Server thread/INFO]: Stopping server
+[04:03:23] [Server thread/INFO]: [WESV] Disabling WorldEditSelectionVisualizer v2.1.3
+[04:03:23] [Server thread/INFO]: [dynmap] Disabling dynmap v3.5-beta-1-844
+[04:03:23] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[04:03:23] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[04:03:24] [Server thread/INFO]: [dynmap] Saved 914 pending tile renders in world 'flat'
+[04:03:24] [Server thread/INFO]: [dynmap] Saved 3852 pending tile renders in world 'campus'
+[04:03:25] [Server thread/INFO]: [dynmap] Disabled
+[04:03:25] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[04:03:25] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.7
+[04:03:25] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.7
+[04:03:25] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
+[04:03:25] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[04:03:25] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
+[04:03:25] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:03:25] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:03:25] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:03:25] [Server thread/INFO]: Saving players
+[04:03:25] [Server thread/INFO]: Saving worlds
+[04:03:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[04:03:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:03:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 12 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:03:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:03:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[04:03:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:03:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[test]'/minecraft:test
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'test'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'test'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'test'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 130 entity chunks, 0 poi chunks in world 'test' in 0.03s
+[04:03:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[04:03:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[flat]'/minecraft:flat
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'flat'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'flat'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'flat'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saved 933 block chunks, 48 entity chunks, 0 poi chunks in world 'flat' in 0.50s
+[04:03:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (flat): All chunks are saved
+[04:03:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[campus]'/minecraft:campus
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'campus'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'campus'
+[04:03:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'campus'
+[04:03:26] [Server thread/INFO]: [ChunkHolderManager] Saved 1013 block chunks, 0 entity chunks, 0 poi chunks in world 'campus' in 0.42s
+[04:03:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (campus): All chunks are saved
+[04:03:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:03:26] [Server thread/INFO]: Flushing Chunk IO
+[04:03:26] [Server thread/INFO]: Closing Thread Pool
+[04:03:26] [Server thread/INFO]: Closing Server
